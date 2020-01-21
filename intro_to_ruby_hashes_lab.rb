@@ -1,11 +1,10 @@
 def base_hash
-	base_hash = {:new_hash =>
-		"1key",
-    "2key?"
+	base_hash = {:new_hash => {}
 	}
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
-	{}
+
+
 end
 
 def monopoly_with_second_tier
